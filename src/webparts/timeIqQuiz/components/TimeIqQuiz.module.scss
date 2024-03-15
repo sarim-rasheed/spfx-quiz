@@ -1,0 +1,35 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.timeIqQuiz {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.action {
+	margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.actionButton {
+
+  padding: 10px;
+	width: 150px;
+	font-weight: 100;
+	background-color: #6658d3;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+
+}
+.actionButton:hover {
+  cursor: pointer;
+}
+.instructions li {
+  color: #8597a3;
+}

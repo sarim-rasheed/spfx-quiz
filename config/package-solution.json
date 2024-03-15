@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "time-iq-quiz-client-side-solution",
+    "id": "1a94f5ec-5d0c-4ed1-954e-8cd20516491d",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TimeIQ Quiz description"
+      },
+      "longDescription": {
+        "default": "TimeIQ Quiz description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "time-iq-quiz Feature",
+        "description": "The feature that activates elements of the time-iq-quiz solution.",
+        "id": "e9eacbb6-ef37-4bc0-8e5f-fd6393068faa",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/time-iq-quiz.sppkg"
+  }
+}

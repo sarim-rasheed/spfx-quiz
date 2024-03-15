@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "time-iq-quiz",
+    "libraryId": "1a94f5ec-5d0c-4ed1-954e-8cd20516491d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TimeIQ Quiz",
+    "solutionShortDescription": "TimeIQ Quiz description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
